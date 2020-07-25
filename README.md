@@ -27,8 +27,9 @@ npm install chakra-loader --save-dev
 ```
 
 ### Usage
-If you're using Vue CLI to for your Chakra project, import the `ChakraLoaderPlugin` from the `chakra-loader` package and add it to your `vue.config.js` file.
+If you're using webpack with Vue CLI or Nuxt.js for your Chakra project, import the `ChakraLoaderPlugin` from the `chakra-loader` package and add it to your `vue.config.js` file.
 
+**With Vue CLI**
 ```js
 /* vue.config.js */
 
@@ -56,6 +57,22 @@ module.exports = {
     new VueLoaderPlugin(),
     new ChakraLoaderPlugin()
   ]
+}
+```
+**With Nuxt.js**
+```js
+/* nuxt.config.js */
+
+import { ChakraLoaderPlugin } from 'chakra-loader'
+
+export default {
+  build: {
+    extend(config) {
+      config.plugins.push(
+        new ChakraLoaderPlugin()
+      )
+    }
+  }
 }
 ```
 
