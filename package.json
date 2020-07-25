@@ -13,6 +13,7 @@
     "dist"
   ],
   "scripts": {
+    "test": "echo \"TODO: testing chakra-loader\"",
     "build": "cross-env NODE_ENV=production BABEL_ENV=cjs babel --root-mode upward src -d dist --copy-files"
   },
   "devDependencies": {
