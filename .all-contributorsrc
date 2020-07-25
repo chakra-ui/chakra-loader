@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "codebender828",
+      "name": "Jonathan Bakebwa",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21237954?v=4",
+      "profile": "https://jbakebwa.dev",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "chakra-loader",
+  "projectOwner": "chakra-ui",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

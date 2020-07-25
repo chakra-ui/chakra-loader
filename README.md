@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://github.com/chakra-ui/chakra-ui-vue">
     <img src="https://res.cloudinary.com/xtellar/image/upload/v1595681330/chakra-ui/chakra-loader-logo.png" alt="chakra-loader webpack symbol" width="300" />
   </a>
@@ -101,3 +104,22 @@ export default {
 ### Credits
 This project was largely inspired by the great work done in amazing Vue projects like [`nuxt/components`](https://github.com/nuxt/components) and [`vuetify-loader`](https://github.com/vuetifyjs/vuetify-loader).
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://jbakebwa.dev"><img src="https://avatars2.githubusercontent.com/u/21237954?v=4" width="100px;" alt=""/><br /><sub><b>Jonathan Bakebwa</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-loader/commits?author=codebender828" title="Code">💻</a> <a href="#ideas-codebender828" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
