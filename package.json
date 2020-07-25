@@ -13,7 +13,8 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"TODO: testing chakra-loader\""
+    "test": "echo \"TODO: testing chakra-loader\"",
+    "lint": "eslint --ext .js . --fix"
   },
   "devDependencies": {
     "@chakra-ui/vue": "^0.6.0",
