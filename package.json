@@ -14,6 +14,9 @@
     "test": "echo \"TODO: testing chakra-loader\"",
     "lint": "eslint --ext .js . --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@chakra-ui/vue": "^0.6.0",
     "@changesets/cli": "^2.9.2",
