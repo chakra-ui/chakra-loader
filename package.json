@@ -1,6 +1,6 @@
 {
   "name": "chakra-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official webpack loader for @chakra-ui/vue",
   "main": "lib/index.js",
   "repository": {
@@ -9,9 +9,7 @@
   },
   "author": "Jonathan Bakebwa <codebender828@gmail.com>",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"TODO: testing chakra-loader\"",
     "lint": "eslint --ext .js . --fix"
@@ -40,7 +38,9 @@
   ],
   "dependencies": {
     "loader-utils": "^2.0.0",
-    "lodash": "^4.17.19",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.upperfirst": "^4.3.1",
     "module": "^1.2.5"
   }
 }
