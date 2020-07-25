@@ -4,4 +4,5 @@
   </a>
 </p>
 
-<h2 align="center"> A webpack loader auto-import and register your `@chakra-ui/vue` you use in the template</h2>
+<h2 align="center"> A webpack plugin for auto-importing and tree-shaking `@chakra-ui/vue` components</h2>
+

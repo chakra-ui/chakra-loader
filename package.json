@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "test": "echo \"TODO: testing chakra-loader\"",
-    "build": "cross-env NODE_ENV=production BABEL_ENV=cjs babel --root-mode upward src -d dist --copy-files"
+    "dev": "watch 'yarn build' lib",
+    "build": "cross-env NODE_ENV=production BABEL_ENV=cjs babel --root-mode upward lib -d dist --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -25,7 +26,11 @@
     "cross-env": "^7.0.2",
     "eslint": "^7.5.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11"
+    "lint-staged": "^10.2.11",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "watch": "^1.0.2",
+    "webpack": "^4.44.0"
   },
   "keywords": [
     "chakra-ui",
@@ -33,5 +38,10 @@
     "loader",
     "vue",
     "autoloader"
-  ]
+  ],
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "lodash": "^4.17.19",
+    "module": "^1.2.5"
+  }
 }

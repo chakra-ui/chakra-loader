@@ -3,16 +3,19 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = matcher;
+Object.defineProperty(exports, "ChakraLoaderPlugin", {
+  enumerable: true,
+  get: function get() {
+    return _plugin["default"];
+  }
+});
+exports["default"] = void 0;
 
-function matcher(tags, components) {
-  return tags.reduce(function (matches, tag) {
-    var match = components.find(function (_ref) {
-      var pascalName = _ref.pascalName,
-          kebabName = _ref.kebabName;
-      return [pascalName, kebabName].includes(tag);
-    });
-    match && matches.push(match);
-    return matches;
-  }, []);
-}
+var _loader = _interopRequireDefault(require("./loader"));
+
+var _plugin = _interopRequireDefault(require("./plugin"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = _loader["default"];
+exports["default"] = _default;
