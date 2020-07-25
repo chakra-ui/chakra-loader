@@ -24,6 +24,7 @@
     "cross-env": "^7.0.2",
     "emotion": "^10.0.27",
     "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "vue": "^2.6.11",
