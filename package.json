@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url":"https://github.com/chakra-ui/chakra-loader.git",
+    "url": "https://github.com/chakra-ui/chakra-loader.git"
   },
   "author": "Jonathan Bakebwa <codebender828@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,9 @@
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
     "cross-env": "^7.0.2",
-    "eslint": "^7.5.0"
+    "eslint": "^7.5.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
   },
   "keywords": [
     "chakra-ui",
