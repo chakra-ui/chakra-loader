@@ -2,7 +2,7 @@
   "name": "chakra-loader",
   "version": "1.0.0",
   "description": "Official webpack loader for @chakra-ui/vue",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chakra-ui/chakra-loader.git"
@@ -13,23 +13,20 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"TODO: testing chakra-loader\"",
-    "dev": "watch 'yarn build' lib",
-    "build": "cross-env NODE_ENV=production BABEL_ENV=cjs babel --root-mode upward lib -d dist --copy-files"
+    "test": "echo \"TODO: testing chakra-loader\""
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
+    "@chakra-ui/vue": "^0.6.0",
+    "@changesets/cli": "^2.9.2",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
     "cross-env": "^7.0.2",
+    "emotion": "^10.0.27",
     "eslint": "^7.5.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
-    "watch": "^1.0.2",
     "webpack": "^4.44.0"
   },
   "keywords": [
