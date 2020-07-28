@@ -33,7 +33,7 @@ If you're using webpack with Vue CLI or Nuxt.js for your Chakra project, import 
 ```js
 /* vue.config.js */
 
-const ChakraLoaderPlugin = require('chakra-loader')
+const { ChakraLoaderPlugin } = require('chakra-loader')
 
 module.exports = {
   configureWebpack: {
@@ -49,7 +49,7 @@ module.exports = {
 /* webkack.config.js */
 
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const ChakraLoaderPlugin = require('chakra-loader')
+const { ChakraLoaderPlugin } = require('chakra-loader')
 
 module.exports = {
   // ... other options
