@@ -1,6 +1,6 @@
 {
   "name": "chakra-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official webpack loader for @chakra-ui/vue",
   "main": "lib/index.js",
   "repository": {
