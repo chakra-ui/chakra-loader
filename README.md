@@ -1,6 +1,6 @@
 <p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://github.com/chakra-ui/chakra-ui-vue">
     <img src="https://res.cloudinary.com/xtellar/image/upload/v1595681330/chakra-ui/chakra-loader-logo.png" alt="chakra-loader webpack symbol" width="300" />
@@ -33,7 +33,7 @@ If you're using webpack with Vue CLI or Nuxt.js for your Chakra project, import 
 ```js
 /* vue.config.js */
 
-const ChakraLoaderPlugin = require('chakra-loader')
+const { ChakraLoaderPlugin } = require('chakra-loader')
 
 module.exports = {
   configureWebpack: {
@@ -49,7 +49,7 @@ module.exports = {
 /* webkack.config.js */
 
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const ChakraLoaderPlugin = require('chakra-loader')
+const { ChakraLoaderPlugin } = require('chakra-loader')
 
 module.exports = {
   // ... other options
@@ -132,6 +132,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://jbakebwa.dev"><img src="https://avatars2.githubusercontent.com/u/21237954?v=4" width="100px;" alt=""/><br /><sub><b>Jonathan Bakebwa</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-loader/commits?author=codebender828" title="Code">💻</a> <a href="#ideas-codebender828" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://dominuskelvin.dev"><img src="https://avatars0.githubusercontent.com/u/24433274?v=4" width="100px;" alt=""/><br /><sub><b>Omereshone Kelvin Oghenerhoro</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-loader/commits?author=DominusKelvin" title="Documentation">📖</a></td>
   </tr>
 </table>
 
